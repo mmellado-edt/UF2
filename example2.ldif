@@ -1,0 +1,11 @@
+dn: dc=example,dc=com
+dc: example
+description: Escola del treball de Barcelona
+objectClass: dcObject
+objectClass: organization
+o: example.com
+
+dn: ou=usuaris,dc=example,dc=com
+ou: usuaris
+description: Container per usuaris del sistema linux
+objectclass: organizationalunit
